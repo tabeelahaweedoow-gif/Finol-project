@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Appointment | Duco Hospital</title>
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+
+<h1>Duco Hospital</h1>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">Xogteena</a>
+    <a href="services.html">Adeegyada</a>
+    <a href="gallery.html">Sawirada</a>
+    <a href="appointment.html">Balan Qabsi</a>
+    <a href="help.html">Caawimaad</a>
+    <a href="table.html">Jadwalka</a>
+  </nav>
+
+</header>
+
+<main>
+
+<section class="appointment">
+
+<h2>Qabso Ballan</h2>
+
+<form action="#">
+
+<fieldset>
+
+<legend>Xogta la Daaweeyaha</legend>
+
+<label>Full Name</label>
+<input type="text" placeholder="Enter your name" required ><br>
+
+<label>Email</label>
+<input type="email" placeholder="Enter your email" required><br>
+
+<label>Password</label>
+<input type="password" placeholder="Create password" required minlength="8"><br>
+
+<label>Phone Number</label>
+<input type="tel" placeholder="+25261xxxxxxx"
+pattern="[0-9+ ]{10,15}" required><br>
+
+<label>Select Department</label>
+
+<select required>
+<option value="">Choose Department</option>
+<option>Daawayn Guud</option>
+<option>Qaliin</option>
+<option>Caruurta</option>
+<option>Sheybaar</option>
+<option>Pharmacy</option>
+</select><br>
+
+<label>Gender</label>
+
+<input type="radio" name="gender" value="Male"> Male
+<input type="radio" name="gender" value="Female"> Female
+
+<br><br>
+
+<label>Services Needed</label>
+
+<input type="checkbox"> Consultation
+<input type="checkbox"> Laboratory
+<input type="checkbox"> Surgery
+
+<br><br>
+
+<label>Appointment Date</label>
+
+<input type="date" required>
+
+<label>Message</label>
+
+<textarea rows="5"
+placeholder="Write your message"></textarea>
+
+<input type="submit" value="Book Appointment">
+<input type="reset" value="Reset Appointment">
+
+</fieldset>
+
+</form>
+
+</section>
+
+</main>
+
+<footer>
+
+<p>&copy; 2026 Duco Hospital. All Rights Reserved.</p>
+
+</footer>
+
+</body>
+</html>
